@@ -1,0 +1,63 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Jul 17 12:27:49 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22892 33557 636980 469000) (desktop . "206") "ingph@debian" nil nil ((((font-backend xft x) (font . "-adobe-Source Code Pro-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro Medium-14") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (mouse-color . "#eff0f1") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 11) (right-fringe . 11) (scroll-bar-foreground . "#eff0f1") (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#657b83") (sticky) (environment) (frameset--id . "5D67-381A-D815-D3B6") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (visibility . t) (display . ":0") (explicit-name) (height . 41) (width . 172) (left . 3) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 96) (min-pixel-width . 220) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 88) (min-pixel-height-safe . 24) (min-pixel-width-safe . 44)) hc (pixel-width . 1917) (pixel-height . 971) (total-width . 174) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 957) (pixel-height . 971) (total-width . 87) (total-height . 40) (normal-height . 1.0) (normal-width . 0.5) (buffer "index.html" (selected) (hscroll . 0) (fringes 11 11 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1555) (start . 589))) (leaf (last . t) (pixel-width . 960) (pixel-height . 971) (total-width . 87) (total-height . 40) (normal-height . 1.0) (normal-width . 0.5) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 11 11 nil) (margins 4) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 2882) (start . 2548)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("fill" "auto-completeq"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/var/www/html/sass/import.scss" "/var/www/html/sass/general-wrapper.scss" "/var/www/html/sass/gg.scss" "/var/www/html/sass/variables.scss" "/var/www/html/sass/import.scss" "/var/www/html/index.html" "/home/ingph/.emacs" "/home/ingph/js.js"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/ingph/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(visual-line-mode linum-mode auto-complete-mode yas-minor-mode)
+  2882
+  '(5226 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/var/www/html/index.html"
+  "index.html"
+  'html-mode
+  '(visual-line-mode linum-mode auto-complete-mode yas-minor-mode emmet-mode)
+  1555
+  '(1222 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/var/www/html/sass/import.scss"
+  "import.scss"
+  'scss-mode
+  '(visual-line-mode linum-mode auto-complete-mode yas-minor-mode emmet-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/ingph/js.js"
+  "js.js"
+  'js-mode
+  '(visual-line-mode linum-mode auto-complete-mode yas-minor-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+

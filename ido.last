@@ -1,0 +1,38 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/var/www/" . "html/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/var/www/html/sass/"
+ "/var/www/html/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "gg.scss"
+ "variables.scss"
+ "import.scss"
+ "index.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/var/www/html/sass/" (22892 32656 923029 199000) "main/" "variables.scss" "import.scss" "footer/" "general-wrapper.scss" "../" "header/" "./")
+
+ ("/var/www/html/" (22891 49898 687817 476000) "gulpfile.js" "css/" "img/" "node_modules/" "index.html" "sass/" "fonts/" "table" "package.json" "../" "frameworks/" "./" ".git/")
+
+ ("/var/www/" (22887 48265 347629 838000) "html/" "../" "./")
+
+ ("/var/" (22887 48265 347629 838000) "www/" "cache/" "opt/" "run/" "tmp/" "lib/" "mail/" "spool/" "backups/" "local/" "lock/" "log/" "../" "./")
+
+ ("/home/" (22886 3685 467357 763000) "../" "./" "ingph/")
+
+ ("/home/ingph/" (22891 39063 312588 689000) "Videos/" ".gconf/" ".emacs.d/" ".bash_history" ".directory" "Desktop/" ".stardict/" "Public/" ".mozilla/" "Music/" ".pki/" ".profile" "Documents/" ".xsession-errors" ".steam/" "VirtualBox VMs/" ".pulse-cookie" ".gtkrc-2.0" ".nvidia-settings-rc" ".fonts/" ".compose-cache/" "Downloads/" ".steampath" ".gnome2/" ".gnupg/" ".cache/" ".bash_logout" ".viminfo" "Templates/" ".gtkrc-2.0-kde4" "Steam/" ".kde/" ".Xauthority" "Pictures/" ".#js.js" ".local/" ".emacs" ".steampid" ".dbus/" ".nv/" "../" "splat/" ".gnome2_private/" "js.js" ".gitconfig" ".config/" "./" ".bashrc")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
